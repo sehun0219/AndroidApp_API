@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ICT638_A2_2021.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="25" CornerRadius="0">
+            <Label  
+                Text="Rent-a-go
+                Real-Estate"  
+                HorizontalTextAlignment="Center"  
+                TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Welcome to Rent a go Please enter your ID info."  
+               TextColor="black" 
+               FontFamily="Bold" 
+               FontSize="Caption"  
+               HorizontalOptions="Center"/>
+
+        <Entry x:Name="userEntry" Placeholder="Please enter username"/>
+        <Entry x:Name="passwordEntry" Placeholder="Please enter your password" IsPassword="True"/>
+        <Button x:Name="loginButton" Text="Login" Clicked="loginButton_Clicked"/>
+        <Button x:Name="registrationButton" Text="Registration" Clicked="RegistrationButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage> 

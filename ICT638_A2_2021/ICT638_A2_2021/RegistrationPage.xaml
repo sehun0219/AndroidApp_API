@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT638_A2_2021.RegistrationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to RegistrationPage"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+            <Entry x:Name="entryUserName" Placeholder="Username"></Entry>
+            <Entry x:Name="entryPassword" Placeholder="Password"></Entry>
+            <Entry x:Name="entryPhone" Placeholder="Phone"></Entry>
+            <Entry x:Name="entryAddress" Placeholder="Address"></Entry>
+
+            <StackLayout>
+                <Button x:Name="btnSave" Text="Save" Clicked="btnSave_Clicked"></Button>
+                <Button x:Name="btnCancel" Text="Cancel" Clicked="btnCancel_Clicked"></Button>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ICT638_A2_2021"
+             x:Class="ICT638_A2_2021.HomePage">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Profile" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Logout" Clicked="ToolbarItem_Clicked_1" />
+        
+    </TabbedPage.ToolbarItems>
+    <TabbedPage.Children>
+        <local:PropertyPage Title="Property"/>
+        <local:AgentPage Title="Agent"/>
+        
+    </TabbedPage.Children>
+</TabbedPage>
